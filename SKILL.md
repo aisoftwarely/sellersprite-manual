@@ -1,18 +1,18 @@
 ---
-name: sellersprite-amazon-research
-description: 卖家精灵（SellerSprite）亚马逊调研技能。当用户需要调研亚马逊（尤其美国站）的产品数据、市场数据、竞品、关键词、搜索/关联流量、广告架构或买家评论时使用；也用于查询卖家精灵各功能的正确用法、功能入口、指标含义、子账号与额度限制、数据更新频率，以及把卖家精灵接入 AI 工作流（MCP / 开放 API）。Use when researching Amazon products or markets with SellerSprite (卖家精灵) — 选品、选市场、关键词调研、竞品分析、流量分析、广告洞察、评论分析、利润测算 — or when asked about SellerSprite features, feature entry points, metric definitions, sub-account quotas, data refresh cadence, or SellerSprite MCP/API integration.
+name: sellersprite-manual
+description: 卖家精灵（SellerSprite）功能手册 —— 亚马逊调研知识库与操作指南。当用户需要调研亚马逊（尤其美国站）的产品数据、市场数据、竞品、关键词、搜索/关联流量、广告架构或买家评论时使用；也用于查询卖家精灵各功能的正确用法、功能入口、指标含义、子账号与额度限制、数据更新频率，以及把卖家精灵接入 AI 工作流（MCP / 开放 API）。Use when researching Amazon products or markets with SellerSprite (卖家精灵) — 选品、选市场、关键词调研、竞品分析、流量分析、广告洞察、评论分析、利润测算 — or when asked about SellerSprite features, feature entry points, metric definitions, sub-account quotas, data refresh cadence, or SellerSprite MCP/API integration.
 agent_created: true
 ---
 
-# 卖家精灵亚马逊调研技能（SellerSprite Amazon Research）
+# 卖家精灵功能手册（SellerSprite Manual）
 
-把卖家精灵的功能体系、操作路径、指标口径和调研方法论，整理成一套可被任意 AI Agent 直接调用的知识库。
+把卖家精灵官网功能手册的**功能体系、操作路径、指标口径与调研方法论**，整理成一套可被任意 AI Agent 直接调用的知识库。
 
-本技能面向**知识指导 + 方法论**：不代替用户登录、不抓取账号数据，而是让 Agent 知道「用哪个功能、怎么设置筛选、结果怎么读、结论能不能下」。
+本手册面向**知识指导 + 方法论**：不代替用户登录、不抓取账号数据，而是让 Agent 知道「用哪个功能、怎么设置筛选、结果怎么读、结论能不能下」。
 
-## 一、何时使用本技能
+## 一、何时使用本手册
 
-出现以下任一情况时加载本技能：
+出现以下任一情况时加载本手册：
 
 1. 用户要**调研亚马逊某个品类 / 关键词 / ASIN / 品牌 / 店铺**的数据；
 2. 用户提到「选品」「选市场」「查竞品」「关键词反查」「拓展流量词」「流量来源」「广告洞察」「评论分析」等卖家精灵功能；

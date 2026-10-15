@@ -1,7 +1,9 @@
-# SellerSprite Amazon Research Skill
+# 卖家精灵功能手册 · SellerSprite Manual
 
-> 把**卖家精灵（SellerSprite）**的功能体系、操作路径、指标口径与调研方法论，整理成一套可被任意 AI Agent 直接调用的 **Agent Skill**。
+> 把**卖家精灵（SellerSprite）**官网功能手册的功能体系、操作路径、指标口径与调研方法论，整理成一套可被任意 AI Agent 直接调用的 **Agent Skill**。
 > 面向亚马逊（尤其**美国站**）的产品调研与市场调研场景。
+
+**关于仓库名**：GitHub 仓库名只能使用 ASCII 字符（字母、数字与 `.` `-` `_`），因此英文名为 `sellersprite-manual`；中文名「卖家精灵功能手册」体现在本标题与仓库 Description。
 
 [![Skill](https://img.shields.io/badge/type-Agent%20Skill-blue)]()
 [![Lang](https://img.shields.io/badge/lang-中文-green)]()
@@ -36,7 +38,7 @@
 ## 目录结构
 
 ```
-sellersprite-amazon-research/
+sellersprite-manual/
 ├── SKILL.md                          # 主文件：触发条件、核心工作流、资源索引
 ├── README.md
 ├── CHANGELOG.md
@@ -65,7 +67,7 @@ sellersprite-amazon-research/
 本仓库是一个标准 Agent Skill 目录（`SKILL.md` + `references/` + `scripts/`），把它放到你所使用 Agent 的 skills 目录即可。
 
 ```bash
-git clone https://github.com/aisoftwarely/sellersprite-amazon-research.git
+git clone https://github.com/aisoftwarely/sellersprite-manual.git
 ```
 
 常见 Agent 的 skills 目录：
@@ -78,7 +80,7 @@ git clone https://github.com/aisoftwarely/sellersprite-amazon-research.git
 
 ```bash
 # 以 WorkBuddy 为例
-cp -r sellersprite-amazon-research ~/.workbuddy-ai/skills/
+cp -r sellersprite-manual ~/.workbuddy-ai/skills/
 ```
 
 > 若不支持 Skill 机制，也可直接把 `SKILL.md` 内容作为系统提示或项目说明喂给 Agent。

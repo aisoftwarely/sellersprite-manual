@@ -4,6 +4,19 @@
 
 格式参考 [Keep a Changelog](https://keepachangelog.com/zh-CN/1.1.0/)。
 
+## [1.2.0] - 2026-10-15
+
+### 变更
+
+- **项目定位改为「卖家精灵功能手册」**：
+  - 仓库名 `sellersprite-amazon-research` → **`sellersprite-manual`**
+    （GitHub 仓库名只允许 ASCII 字符，中文名「卖家精灵功能手册」放在仓库 Description 与 README 标题）
+  - `SKILL.md` 技能名 `sellersprite-amazon-research` → `sellersprite-manual`，标题改为「卖家精灵功能手册（SellerSprite Manual）」
+  - `README.md` 标题改为「卖家精灵功能手册 · SellerSprite Manual」，并说明仓库名与中文名的对应关系
+  - 全文「本技能」统一为「本手册」，clone 地址与安装示例同步更新
+
+> 触发条件与知识内容**未变**，本次仅调整命名与定位表述。
+
 ## [1.1.0] - 2026-10-15
 
 ### 新增
