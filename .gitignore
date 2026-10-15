@@ -1,0 +1,33 @@
+# ---- 密钥与凭证（绝不提交）----
+.env
+.env.*
+*.key
+*secret*
+*credential*
+mcp.json
+mcp_config.json
+ss_mcp*.json
+
+# ---- 抓取产物与临时文件 ----
+*.html
+!references/**/*.html
+sm.xml
+sitemap.xml
+fake_snapshot.json
+sync_report*.json
+*.tmp
+
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+
+# ---- 编辑器 / 系统 ----
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
